@@ -18,7 +18,7 @@ const mongoose = require('mongoose')
 mongoose.connect(config.mongoURI
     // useNewUrlParser: true,
     // useUnifiedTopology: true,
-    // useCreateIndex: true,
+    // useCreateIndex: true,git 
     // useFindAndModify: false,
 )  .then(()=> console.log('MongoDB Connected...'))
     .catch(err => console.log(err))
